@@ -1,15 +1,16 @@
 {
-  "name": "bun-bulk-api",
-  "version": "1.0.28",
+  "name": "bun-hacker-news-api",
+  "version": "0.0.0",
+  "module": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/swagger": "^0.3.0",
+    "elysia": "0.4.4"
   },
   "devDependencies": {
-    "bun-types": "latest"
-  },
-  "module": "src/index.js"
+    "bun-types": "0.5.8"
+  }
 }
